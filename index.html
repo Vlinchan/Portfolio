@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinayaka Linchan — AI & ML Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Cursor glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Animated background grid -->
+    <div class="bg-grid"></div>
+
+    <!-- Floating particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+      <a href="#home" class="logo">VL<span>.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="gradient-btn">Let's Talk</a>
+    </header>
+
+    <!-- ========== HOME ========== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="tag-line"><span class="dot"></span> Open to opportunities</div>
+        <h1>Hi, I'm <br><span class="gradient-text">Vinayaka<br>Linchan</span></h1>
+        <h3>AI & ML Engineer <span class="amp">&</span> Developer</h3>
+        <p>
+          Pushing the boundaries of artificial intelligence and software development — designing, training, and deploying next-generation applications where smart algorithms meet seamless user experiences.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://github.com/Vlinchan" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/vinayaka-linchan-14747926b/" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/linchanvinayaka/" aria-label="Instagram"><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="assets/Vinayaka_Linchan_Resume.pdf" download class="btn btn-outline">Download CV</a>
+        </div>
+      </div>
+
+      <!-- 3D Anime Character -->
+      <div class="hero-3d-wrap">
+
+        <canvas id="three-canvas"></canvas>
+
+        <div class="canvas-hint">
+          <i class="bx bx-mouse"></i>
+          <span>Move cursor to interact</span>
+        </div>
+
+      </div>
+
+
+      
+        <!-- Floating stats -->
+        <div class="float-badge badge-1">
+          <i class="bx bx-brain"></i>
+          <div>
+            <strong>AI Models</strong>
+            <span>Trained & Deployed</span>
+          </div>
+        </div>
+        <div class="float-badge badge-2">
+          <i class="bx bx-code-alt"></i>
+          <div>
+            <strong>4+ Projects</strong>
+            <span>Production Ready</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+      <div class="about-visual">
+        <div class="about-img-wrap">
+          <img src="assets/images/Image.jpg" alt="Vinayaka Linchan" />
+          <div class="img-ring"></div>
+          <div class="img-ring ring-2"></div>
+        </div>
+        <!-- Skills pills -->
+        <div class="skills-cloud">
+          <span>Python</span><span>TensorFlow</span><span>PyTorch</span>
+          <span>LangChain</span><span>Godot</span><span>Android</span>
+          <span>Kotlin</span><span>Firebase</span><span>React</span>
+          <span>OpenCV</span><span>Diffusion Models</span><span>FastAPI</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <div class="section-label">About Me</div>
+        <h2>Bridging <span class="gradient-text">Intelligence</span><br>& Experience</h2>
+        <p>
+          A forward-thinking developer specializing in bridging the gap between intelligent automation and interactive user experiences. From training autonomous AI agents to crafting immersive game mechanics and building scalable web applications — I turn complex technical challenges into seamless digital solutions.
+        </p>
+        <p>
+          I thrive at the intersection of clean code, smart logic, and impactful design.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <strong>4+</strong>
+            <span>Projects Built</span>
+          </div>
+          <div class="stat">
+            <strong>3+</strong>
+            <span>Domains Mastered</span>
+          </div>
+          <div class="stat">
+            <strong>∞</strong>
+            <span>Curiosity</span>
+          </div>
+        </div>
+
+        <a href="assets/Vinayaka_Linchan_Resume.pdf" download class="btn btn-primary">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="services">
+      <div class="section-header">
+        <div class="section-label">What I Do</div>
+        <h2>My <span class="gradient-text">Services</span></h2>
+      </div>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-icon"><i class="bx bx-bot"></i></div>
+          <div class="service-number">01</div>
+          <h4>AI Agent Architecture</h4>
+          <p>Designing autonomous, intelligent AI agents that automate complex workflows. I build systems capable of reasoning, tool integration, and executing data-driven tasks independently.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon"><i class="bx bx-game"></i></div>
+          <div class="service-number">02</div>
+          <h4>Immersive Game Dev</h4>
+          <p>Crafting interactive, high-performance gameplay experiences from concept to deployment. Focused on smooth mechanics, robust game logic, and engaging user journeys.</p>
+          <div class="service-line"></div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon"><i class="bx bx-window-alt"></i></div>
+          <div class="service-number">03</div>
+          <h4>Full-Stack Web Apps</h4>
+          <p>Architecting production-ready web applications paired with pixel-perfect design. Clean code, intuitive UX, and highly scalable digital infrastructure.</p>
+          <div class="service-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="projects" id="projects">
+      <div class="section-header">
+        <div class="section-label">Portfolio</div>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+
+      <div class="projects-box">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/images/cat.png" alt="Pink Cat Game" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vlinchan/Pink-cat" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="bx bxl-github"></i> View Code
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span>Godot</span><span>Game Dev</span><span>2D</span></div>
+            <h3>Pink Cat Game 2D Platformer</h3>
+            <p>A fun 2D platformer built with Godot Engine. Player controls a pink cat character with movement, jumping, and enemy avoidance — demonstrating core game development concepts.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/images/fashion.png" alt="Fashion Recommendation" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vlinchan/Fashion-Recommendation-System" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="bx bxl-github"></i> View Code
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span>Computer Vision</span><span>Diffusion Models</span><span>AI</span></div>
+            <h3>Fashion Recommendation System</h3>
+            <p>Smart AI-powered system that suggests similar outfits and lets users virtually try them on using state-of-the-art diffusion models, combining CV + deep learning + generative AI.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/images/emp.png" alt="Employee Tracker" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vlinchan/EmployeeTracker" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="bx bxl-github"></i> View Code
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span>Kotlin</span><span>Android</span><span>Firebase</span></div>
+            <h3>Employee Performance Tracker</h3>
+            <p>Native Android app for managing workforce metrics, attendance, and daily performance. Built with Kotlin, Room SQLite, and Firebase Auth for offline-first reliability.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="assets/images/aistory.png" alt="AI Story Teller" />
+            <div class="project-overlay">
+              <a href="https://github.com/Vlinchan/Ai_story_teller" target="_blank" rel="noopener noreferrer" class="overlay-btn">
+                <i class="bx bxl-github"></i> View Code
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span>Python</span><span>Generative AI</span><span>NLP</span></div>
+            <h3>AI Story Teller</h3>
+            <p>Interactive app that generates personalized narrative experiences using state-of-the-art generative AI models. Crafts dynamic stories from custom prompts, genres, and characters.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-left">
+          <div class="section-label">Get In Touch</div>
+          <h2>Let's <span class="gradient-text">Build</span><br>Something Great</h2>
+          <p>Have a project in mind or just want to chat about AI and tech? I'm always open to exciting opportunities and collaborations.</p>
+
+          <div class="contact-links">
+            <a href="https://github.com/Vlinchan" class="contact-link">
+              <i class="bx bxl-github"></i>
+              <span>github.com/Vlinchan</span>
+            </a>
+            <a href="https://www.linkedin.com/in/vinayaka-linchan-14747926b/" class="contact-link">
+              <i class="bx bxl-linkedin"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="https://www.instagram.com/linchanvinayaka/" class="contact-link">
+              <i class="bx bxl-instagram-alt"></i>
+              <span>@linchanvinayaka</span>
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="input-wrap">
+              <input type="text" name="name" placeholder="Full Name" required />
+            </div>
+            <div class="input-wrap">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-wrap">
+              <input type="tel" name="phone" placeholder="Phone Number" />
+            </div>
+            <div class="input-wrap">
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+          </div>
+          <div class="input-wrap full">
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary send-btn">
+            <span>Send Message</span>
+            <i class="bx bx-send"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="#home" class="footer-logo">VL<span>.</span></a>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="https://github.com/Vlinchan"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/vinayaka-linchan-14747926b/"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/linchanvinayaka/"><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+        <p class="copyright">© 2025 Vinayaka Linchan HV. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Toast -->
+    <div id="toast" class="toast">
+      <i class="bx bx-check-circle"></i>
+      Message sent! I'll get back to you soon 🚀
+    </div>
+
+    <!--Import Maps-->
+
+    <script async src="https://unpkg.com/es-module-shims@1.10.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.165/build/three.module.js"
+      }
+    }
+    </script>
+
+    <!--3D model-->
+
+    <script type="module" src="animeModel.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
